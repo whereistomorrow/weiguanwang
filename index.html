@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+  <meta name="rednder" content="webkit">
+  <title>首页</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/index.css" rel="stylesheet">
+  <style type="text/css">
+	 .hmFocus .swiper-pagination{
+		bottom:0;padding:10px 0;background-color:rgba(0,0,0,0.5);filter:alpha(opacity=50);
+	 }
+  </style>
+  <!--[if lt IE 9]>
+	  <script src="js/html5shiv.min.js"></script>
+	  <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+	<div class="page_1">
+		<!-- 轮播 -->
+		<header class="mkeContentBox">
+			<div class="hmFocus">
+				<div class="swiper-container autoImg">
+					<div class="swiper-wrapper">
+						<a href="http://www.baidu.com" class="swiper-slide"><img src="img/carous_1.jpg"></a>
+						<a href="http://www.baidu.com" class="swiper-slide"><img src="img/carous_2.jpg"></a>
+						<a href="http://www.baidu.com" class="swiper-slide"><img src="img/carous_3.jpg"></a>
+					</div>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+	  </header>
+	  <section>
+		   <a href="http://www.baidu.com" class="csame c1">
+				<div class="csame_title text-center">旅游攻略</div>
+				<div class="csame_detail">旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</div>
+		   </a>
+		   <a href="http://www.baidu.com" class="csame c2">
+				<div class="csame_title text-center">旅游攻略</div>
+				<div class="csame_detail">旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</div>
+		   </a>
+		   <a href="http://www.baidu.com" class="csame c3">
+				<div class="csame_title text-center">旅游攻略</div>
+				<div class="csame_detail">旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</div>
+		   </a>
+		   <a href="http://www.baidu.com" class="csame c4">
+				<div class="csame_title text-center">旅游攻略</div>
+				<div class="csame_detail">旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</div>
+		   </a>
+		   <a href="http://www.baidu.com" class="csame c5">
+				<div class="csame_title text-center">5旅游攻略</div>
+				<div class="csame_detail">旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</div>
+		   </a>
+		   <a href="http://www.baidu.com" class="csame c6">
+				<div class="csame_title text-center">6旅游攻略</div>
+				<div class="csame_detail">旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</div>
+		   </a>
+		   <a href="http://www.baidu.com" class="csame c7">
+				<div class="csame_title text-center">7旅游攻略</div>
+				<div class="csame_detail">旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</div>
+		   </a>
+		   <a href="http://www.baidu.com" class="csame special">
+				<div class="csame_box">
+					<div class="csame_sign text-center">必读</div>
+					<div class="csame_title text-center">旅游攻略</div>
+					<div class="csame_detail">旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略旅游攻略</div>
+				</div>
+		   </a>
+	  </section>
+	  <!-- 背景换色 -->
+	  <div class="change_bg">
+			背景换色 <span class="bg_0">默认</span> <span class="bg_1">随机</span> <span class="bg_2">1</span> <span class="bg_3">2</span>
+	  </div>
+	  <footer class="text-center">
+			技术支持由 <mark>小泥人</mark> 提供
+	  </footer>
+	  <!-- 显示的音乐播放器按钮 -->
+	  <div class="music">♬</div>
+	  <!-- 隐藏的音乐播放器 -->
+	  <audio id="audio" loop autoplay height="30" width="100">
+		<source src="http://cc.stream.qqmusic.qq.com/C200004NDV4f1I41vC.m4a?vkey=D19BB28D361CD6354A4C40F16ADAE043BA9EC2C03118811D2D45341D9CDA34F1B87A452E5AC0D3BC2C818711508F12FC2869A7BE233700A4&guid=2446129035&fromtag=30"></source>
+		<embed src="http://cc.stream.qqmusic.qq.com/C200004NDV4f1I41vC.m4a?vkey=D19BB28D361CD6354A4C40F16ADAE043BA9EC2C03118811D2D45341D9CDA34F1B87A452E5AC0D3BC2C818711508F12FC2869A7BE233700A4&guid=2446129035&fromtag=30" height="30" width="100" />
+	  </audio>
+	  <!-- 右侧按钮 -->
+	  <a href="http://www.baidu.com" class="btn_map">导航</a>
+	  <a href="http://www.baidu.com" class="btn_phone">自动拨号</a>
+  </div>
+  <!-- 封面 -->
+  <div class="front_page">
+	<div class="leftOne">
+		<img src="img/front.jpg" alt="" />
+	</div>
+	<div class="rightOne">
+		<img src="img/front.jpg" alt="" />
+	</div>
+	<div class="open_btn"></div>
+  </div>
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script language="javascript">
+	$(document).ready(function(){
+		var swiper = new Swiper('.hmFocus .swiper-container', {
+			pagination: '.swiper-pagination',
+			loop: true,
+			autoplay: 2000,
+			paginationClickable: true
+	   });
+	   //轮播图片高度
+	   $('.swiper-slide img').css('height',$('.swiper-slide img').eq(0).css('height'));
+	   
+	   //右侧按钮
+	   $('[class^="btn_"]').css('right',($(document).width()-$('section').innerWidth())/2+'px');
+	   $('.music').css('right',($(document).width()-$('section').innerWidth())/2+10+'px');
+	   
+	   //音乐按钮
+	   $('.music').addClass('on');
+	   var audio=document.getElementById('audio');
+	   $('.music').click(function(){
+			if($(this).hasClass('on')){
+				$(this).removeClass('on');
+				audio.pause();
+			}else{
+				$(this).addClass('on');
+				audio.play();				
+			}
+	   });
+	   
+	   //special
+	   $('.special').css({
+			width:$('.c1').outerWidth()+'px',
+			height:2*$('.c1').outerHeight()+10+'px',
+			right:10+$('section').width()*0.025+'px',
+	   });
+
+	   //封面
+	   $('.front_page [class$="One"] img').css({
+		   height:$(document).height(),
+		   width:$('.front_page').width()
+	   });
+	   $('.front_page .rightOne img').css({
+		   marginLeft:-$('.front_page').width()/2
+	   });
+	   $('.front_page').css('height',$(document).height());
+	   $('.open_btn').css({left:($('header').width()-$('.open_btn').width())/2+'px',top:$('.front_page').height()/2+'px'});
+	   $('.open_btn').click(function(){
+			$(this).fadeOut(100);
+			/*$('.leftOne').animate({width:'0'},1000);
+			$('.rightOne').animate({width:'0'},1000);*/
+			$('.leftOne').animate({left:-$('.front_page').width()/2},1000);
+			$('.rightOne').animate({right:-$('.front_page').width()/2},1000);
+			setTimeout(function(){$('.front_page').css('height','0');},1000);
+	   });
+
+	   //背景换色
+	   var r,g,b;
+	   $('[class^="bg_"]').click(function(){
+		    if($(this).index()=='0'){
+				$('section').css({background:''});
+			}else if($(this).index()=='1'){
+				r=parseInt(Math.random()*255);
+				g=parseInt(Math.random()*255);
+				b=parseInt(Math.random()*255);
+				console.log($(this).index());
+				$('section').css({background:'rgb('+r+','+g+','+b+')'});
+			}else if($(this).index()=='2'){
+				$('section').css({background:'rgb(149,93,4)'});
+			}else if($(this).index()=='3'){
+				$('section').css({background:'rgb(0,0,0)'});
+			}
+	   });
+	});
+  </script>
+</body>
+</html>
